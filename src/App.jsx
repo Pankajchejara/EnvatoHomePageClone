@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import FluidAnimation from 'react-fluid-animation'
+
 import ReviewSection from './components/ReviewSection';
 import BrowserSection from './components/BrowserSection';
 import CardSection from './components/CardSection';
@@ -15,7 +15,7 @@ const App = () => {
     <div className="app-container" style={{ position: 'relative', overflow: 'hidden' }}>
       {/* Include SmokeFluidBackground as the background */}
    
-    <FluidAnimation/>
+    
       <div className='w-[100%] h-[100vh] flex flex-col'>
         <Navbar />
         <div className='flex-grow bg-[#0E0F1A] overflow-y-auto mt-[54px]'>
