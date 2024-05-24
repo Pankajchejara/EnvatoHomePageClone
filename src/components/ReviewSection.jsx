@@ -13,9 +13,9 @@ const ReviewSection = () => {
 
      <div className='flex   lg:justify-start justify-center flex-grow flex-shrink-0 w-full h-auto sm:w-[312px]  sm:h-[100px] '>
       <div className='sm:flex-row gap-x-2  items-center flex flex-col'>
-      <img src={ReviewImage1} alt='Error'/>
+      <img src={ReviewImage1} alt='ReviewImage' loading='lazy'/>
      <div className='flex flex-col gap-y-4 mt-5 '>
-        <img src={star}/>
+        <img src={star} loading='lazy'/>
         <p className='text-paracolor-100 text-center break-words relative -left-[5px] outfit-Title'>4.5 Score, 9 Reviews</p>
      </div>
       </div>
@@ -24,9 +24,9 @@ const ReviewSection = () => {
 
      <div className='flex items-center justify-center flex-grow flex-shrink-0 w-full  sm:w-[312px] gap-x-2 h-auto  sm:h-[100px]  '>
      <div className='sm:flex-row gap-x-2 items-center  flex flex-col'>
-     <img src={ReviewImage2} alt='Error'/>
+     <img src={ReviewImage2} alt='Error' loading='lazy'/>
      <div className='flex flex-col gap-y-4 justify-start mt-5 '>
-        <img src={star}/>
+        <img src={star} alt='startImage' loading='lazy'/>
         <p className='text-paracolor-100 break-words text-center relative -left-[5px] outfit-Title'>4.5 Score, 9 Reviews</p>
      </div>
      </div>
@@ -34,9 +34,9 @@ const ReviewSection = () => {
 
      <div className='flex items-center justify-center lg:justify-end flex-grow w-full flex-shrink-0 sm:w-[312px] gap-x-2 h-auto  sm:h-[100px]  '>
      <div className='     sm:flex-row gap-x-2 items-center flex flex-col'>
-     <img src={ReviewImage3} alt='Error'/>
+     <img src={ReviewImage3} alt='Error' loading='lazy'/>
      <div className='flex flex-col gap-y-4 mt-5 '>
-        <img src={star}/>
+        <img src={star} alt='star' loading='lazy'/>
         <p className='text-paracolor-100 break-words text-center relative -left-[5px] outfit-Title'>4.5 Score, 9 Reviews</p>
      </div>
      </div>

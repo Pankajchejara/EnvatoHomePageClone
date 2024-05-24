@@ -6,7 +6,7 @@ const HeroSection = () => {
 
 
       <div className=' flex justify-between'>
-      <img src={logo} className='relative  w-[220px] -left-2 aspect-[220/52]'/>
+      <img src={logo} alt='logoImage' loading='lazy' className='relative  w-[220px] -left-2 aspect-[220/52]'/>
     <a href='#'> <div className=' text-center py-[13px] px-[35px] text-[18px]  bg-white hidden lg:block rounded-[5px] border-2 border-[#FFFFFF] text-black hover:bg-transparent outfit-Title hover:text-white transition-all duration-200 break-words'>Purchase   Now</div></a>
     </div>
 

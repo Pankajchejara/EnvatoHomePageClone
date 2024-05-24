@@ -14,7 +14,7 @@ const BrowserSection = () => {
           Rest assured, Motion Art is designed to be compatible with all major web browsers.
         </p>
         <div className='mt-[15px] w-full flex justify-center items-center  mx-auto'>
-        <img src={BrowserImage} alt='Browser'  className='md:max-w-[500px] w-[80%]' />
+        <img src={BrowserImage} alt='Browser' loading='lazy'  className='md:max-w-[500px] w-[80%]' />
         </div>
    
     </div>

@@ -14,7 +14,7 @@ const ApplySection = () => {
       <h2 className='text-[#EEE5FF] text-[25px] leading-[45px] sora-Title '>Apply On Section</h2>
     <p className='text-paracolor-100 text-[18px] leading-[30px] outfit-Title break-words'>Apply on section is a game-changer, offering an unparalleled way to manage applications directly from your website. </p>
     <div className='flex md:justify-start justify-center items-center'>
-    <img src={sectionImage}/>
+    <img src={sectionImage} loading="lazy " alt='sectionImage'/>
     </div>
    
       </div>
@@ -29,7 +29,7 @@ const ApplySection = () => {
       <h2 className='text-[#EEE5FF] text-[25px] leading-[45px] sora-Title'>Apply On Page</h2>
     <p className='text-paracolor-100 text-[18px] leading-[30px] outfit-Title break-words'>Take your website to new heights with Motion Art for Elementor. Embrace the power of motion and animation. </p>
     <div  className='flex md:justify-start justify-center items-center' >
-    <img src={pageImage}/>
+    <img src={pageImage} alt='SectionImage' loading='lazy'/>
     </div>
  
       </div>

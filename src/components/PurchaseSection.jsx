@@ -14,7 +14,7 @@ const PurchaseSection = () => {
 
 </div></a>
       </div >
-      <img src={MagicStick}/>
+      <img src={MagicStick} alt='MagicStickImage' loading='lazy' />
     </div>
   )
 }
