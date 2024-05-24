@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+
+  *{
+    scroll-behavior: smooth;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .gradient-text {
+    background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+ 
+  }
+
+  /* // <uniquifier>: Use a unique and descriptive class name */
+  /* // <weight>: Use a value from 100 to 800 */
+  
+  .sora-Title {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .sora-btn {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  .outfit-Title {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
